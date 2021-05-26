@@ -13,7 +13,7 @@ There are 3 main components:
 ### The Filter
 
 If you're not familiar with filters, you should probably check
-out [this article](tutorialspoint.com/spring_boot/spring_boot_servlet_filter.htm) before reading any further.
+out [this article](https://tutorialspoint.com/spring_boot/spring_boot_servlet_filter.htm) before reading any further.
 
 The `HeaderRequirementFilter` is dependent on configured header requirements and makes use of these to determine if the
 headers on the incoming request are valid or not. If the headers are valid the chain executes normally, otherwise
